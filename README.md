@@ -28,6 +28,7 @@ cp .env.example .env
 ### Run Demo
 
 ```bash
+cd src/core
 # Run the interactive demo
 python test_workflow.py
 

@@ -1,0 +1,47 @@
+{
+  "task_id": "linear_create_issue",
+  "query": "how do i create a new issue in linear?",
+  "app": "linear",
+  "action": "create",
+  "entity": "issue",
+  "captured_at": "2025-11-17T22:40:18.315735",
+  "start_url": "https://linear.app",
+  "steps": [
+    {
+      "step_number": 0,
+      "name": "initial_state",
+      "description": "initial page view",
+      "screenshots": {
+        "viewport": "demo_dataset/screenshots/linear_create_issue/initial_state_20251117_224018_315_viewport.png",
+        "full_page": "demo_dataset/screenshots/linear_create_issue/initial_state_20251117_224018_315_full.png"
+      },
+      "timestamp": "2025-11-17T22:40:18.943333",
+      "url": "https://linear.app/memestest/team/MEM/active"
+    },
+    {
+      "step_number": 1,
+      "action_type": "click",
+      "target": "New issue",
+      "value": null,
+      "description": "open new issue modal",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/linear_create_issue/step_1_Abefore_20251117_224019_978_highlighted.png",
+        "viewport": "demo_dataset/screenshots/linear_create_issue/step_1_Abefore_20251117_224019_978_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/linear_create_issue/step_1_Bafter_20251117_224025_228_viewport.png",
+        "full_page": "demo_dataset/screenshots/linear_create_issue/step_1_Bafter_20251117_224025_228_full.png"
+      },
+      "state_changed": true,
+      "url": "https://linear.app/memestest/team/MEM/active",
+      "timestamp": "2025-11-17T22:40:26.637857"
+    },
+    {
+      "step_number": 2,
+      "action_type": "wait",
+      "description": "wait for modal",
+      "duration": 0.5,
+      "timestamp": "2025-11-17T22:40:27.140433"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.env
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+screenshots/
+datasets/
+test_screenshots/
+test_datasets/
+browser_data/
+*.log

@@ -1,0 +1,83 @@
+{
+  "task_id": "notion_add_database",
+  "query": "how do i add a database to a notion page?",
+  "app": "notion",
+  "action": "create",
+  "entity": "database",
+  "captured_at": "2025-11-17T22:42:22.621995",
+  "start_url": "https://www.notion.so",
+  "steps": [
+    {
+      "step_number": 0,
+      "name": "initial_state",
+      "description": "initial page view",
+      "screenshots": {
+        "viewport": "demo_dataset/screenshots/notion_add_database/initial_state_20251117_224222_622_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_add_database/initial_state_20251117_224222_622_full.png"
+      },
+      "timestamp": "2025-11-17T22:42:28.431705",
+      "url": "https://www.notion.so/2aff887ab8878087a0a5e3064c0a7084"
+    },
+    {
+      "step_number": 1,
+      "action_type": "click",
+      "target": "contenteditable area",
+      "value": null,
+      "description": "focus page editor",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/notion_add_database/step_1_Abefore_20251117_224229_474_highlighted.png",
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_1_Abefore_20251117_224229_474_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_1_Bafter_20251117_224240_137_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_add_database/step_1_Bafter_20251117_224240_137_full.png"
+      },
+      "state_changed": false,
+      "url": "https://www.notion.so/2aff887ab8878087a0a5e3064c0a7084",
+      "timestamp": "2025-11-17T22:42:40.741689"
+    },
+    {
+      "step_number": 2,
+      "action_type": "fill",
+      "target": "contenteditable area",
+      "value": "/database",
+      "description": "type slash command",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/notion_add_database/step_2_Abefore_20251117_224241_667_highlighted.png",
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_2_Abefore_20251117_224241_667_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_2_Bafter_20251117_224249_774_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_add_database/step_2_Bafter_20251117_224249_774_full.png"
+      },
+      "state_changed": false,
+      "url": "https://www.notion.so/2aff887ab8878087a0a5e3064c0a7084",
+      "timestamp": "2025-11-17T22:42:50.237016"
+    },
+    {
+      "step_number": 3,
+      "action_type": "wait",
+      "description": "wait for menu",
+      "duration": 0.5,
+      "timestamp": "2025-11-17T22:42:50.738246"
+    },
+    {
+      "step_number": 4,
+      "action_type": "select_menu",
+      "target": "Database",
+      "value": null,
+      "description": "select Database from menu",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/notion_add_database/step_4_Abefore_20251117_224251_219_highlighted.png",
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_4_Abefore_20251117_224251_219_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/notion_add_database/step_4_Bafter_20251117_224301_910_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_add_database/step_4_Bafter_20251117_224301_910_full.png"
+      },
+      "state_changed": false,
+      "url": "https://www.notion.so/2aff887ab8878087a0a5e3064c0a7084",
+      "timestamp": "2025-11-17T22:43:02.442131"
+    }
+  ]
+}

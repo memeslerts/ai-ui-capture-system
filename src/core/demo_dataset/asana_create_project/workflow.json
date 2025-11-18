@@ -1,0 +1,65 @@
+{
+  "task_id": "asana_create_project",
+  "query": "how do i create a new project in asana?",
+  "app": "asana",
+  "action": "create",
+  "entity": "project",
+  "captured_at": "2025-11-17T22:38:29.426181",
+  "start_url": "https://app.asana.com",
+  "steps": [
+    {
+      "step_number": 0,
+      "name": "initial_state",
+      "description": "initial page view",
+      "screenshots": {
+        "viewport": "demo_dataset/screenshots/asana_create_project/initial_state_20251117_223829_426_viewport.png",
+        "full_page": "demo_dataset/screenshots/asana_create_project/initial_state_20251117_223829_426_full.png"
+      },
+      "timestamp": "2025-11-17T22:38:33.621420",
+      "url": "https://app.asana.com/1/1211972979415555/home"
+    },
+    {
+      "step_number": 1,
+      "action_type": "click",
+      "target": "Create",
+      "value": null,
+      "description": "open create menu",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/asana_create_project/step_1_Abefore_20251117_223834_626_highlighted.png",
+        "viewport": "demo_dataset/screenshots/asana_create_project/step_1_Abefore_20251117_223834_626_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/asana_create_project/step_1_Bafter_20251117_223840_457_viewport.png",
+        "full_page": "demo_dataset/screenshots/asana_create_project/step_1_Bafter_20251117_223840_457_full.png"
+      },
+      "state_changed": false,
+      "url": "https://app.asana.com/1/1211972979415555/home",
+      "timestamp": "2025-11-17T22:38:40.935287"
+    },
+    {
+      "step_number": 2,
+      "action_type": "wait",
+      "description": "wait for menu",
+      "duration": 0.5,
+      "timestamp": "2025-11-17T22:38:41.436092"
+    },
+    {
+      "step_number": 3,
+      "action_type": "select_menu",
+      "target": "Project",
+      "value": null,
+      "description": "select Project from menu",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/asana_create_project/step_3_Abefore_20251117_223841_865_highlighted.png",
+        "viewport": "demo_dataset/screenshots/asana_create_project/step_3_Abefore_20251117_223841_865_viewport.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/asana_create_project/step_3_Bafter_20251117_223847_702_viewport.png",
+        "full_page": "demo_dataset/screenshots/asana_create_project/step_3_Bafter_20251117_223847_702_full.png"
+      },
+      "state_changed": false,
+      "url": "https://app.asana.com/1/1211972979415555/create-project",
+      "timestamp": "2025-11-17T22:38:48.153505"
+    }
+  ]
+}

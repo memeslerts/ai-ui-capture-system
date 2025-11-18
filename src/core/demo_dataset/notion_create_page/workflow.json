@@ -1,0 +1,48 @@
+{
+  "task_id": "notion_create_page",
+  "query": "how do i create a new page in notion?",
+  "app": "notion",
+  "action": "create",
+  "entity": "page",
+  "captured_at": "2025-11-17T22:41:52.459464",
+  "start_url": "https://www.notion.so",
+  "steps": [
+    {
+      "step_number": 0,
+      "name": "initial_state",
+      "description": "initial page view",
+      "screenshots": {
+        "viewport": "demo_dataset/screenshots/notion_create_page/initial_state_20251117_224152_459_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_create_page/initial_state_20251117_224152_459_full.png"
+      },
+      "timestamp": "2025-11-17T22:41:54.268937",
+      "url": "https://www.notion.so/Monthly-Budget-Use-this-template-to-figure-out-how-much-you-make-and-spend-in-a-given-month-List-yo-6cdbcee8fd5b4e29b33a292f1482abbd"
+    },
+    {
+      "step_number": 1,
+      "action_type": "click",
+      "target": "Add a page",
+      "value": null,
+      "description": "click Add a page button in sidebar",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/notion_create_page/step_1_Abefore_20251117_224154_901_highlighted.png",
+        "viewport": "demo_dataset/screenshots/notion_create_page/step_1_menu_20251117_224204_232_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_create_page/step_1_menu_20251117_224204_232_full.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/notion_create_page/step_1_Bafter_20251117_224208_424_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_create_page/step_1_Bafter_20251117_224208_424_full.png"
+      },
+      "state_changed": false,
+      "url": "https://www.notion.so/2aff887ab8878087a0a5e3064c0a7084",
+      "timestamp": "2025-11-17T22:42:08.930846"
+    },
+    {
+      "step_number": 2,
+      "action_type": "wait",
+      "description": "wait for new page to open",
+      "duration": 0.5,
+      "timestamp": "2025-11-17T22:42:09.431396"
+    }
+  ]
+}

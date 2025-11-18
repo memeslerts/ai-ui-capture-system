@@ -1,0 +1,48 @@
+{
+  "task_id": "notion_filter_database",
+  "query": "how do i filter a database on notion?",
+  "app": "notion",
+  "action": "filter",
+  "entity": "database",
+  "captured_at": "2025-11-17T22:43:23.502968",
+  "start_url": "https://www.notion.so/Monthly-Budget-6cdbcee8fd5b4e29b33a292f1482abbd",
+  "steps": [
+    {
+      "step_number": 0,
+      "name": "initial_state",
+      "description": "initial page view",
+      "screenshots": {
+        "viewport": "demo_dataset/screenshots/notion_filter_database/initial_state_20251117_224323_503_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_filter_database/initial_state_20251117_224323_503_full.png"
+      },
+      "timestamp": "2025-11-17T22:43:25.983502",
+      "url": "https://www.notion.so/Monthly-Budget-Use-this-template-to-figure-out-how-much-you-make-and-spend-in-a-given-month-List-yo-6cdbcee8fd5b4e29b33a292f1482abbd"
+    },
+    {
+      "step_number": 1,
+      "action_type": "click",
+      "target": "Filter button",
+      "value": null,
+      "description": "open filter panel",
+      "screenshots_before": {
+        "highlighted": "demo_dataset/screenshots/notion_filter_database/step_1_Abefore_20251117_224326_359_highlighted.png",
+        "viewport": "demo_dataset/screenshots/notion_filter_database/step_1_menu_20251117_224329_718_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_filter_database/step_1_menu_20251117_224329_718_full.png"
+      },
+      "screenshots_after": {
+        "viewport": "demo_dataset/screenshots/notion_filter_database/step_1_Bafter_20251117_224334_117_viewport.png",
+        "full_page": "demo_dataset/screenshots/notion_filter_database/step_1_Bafter_20251117_224334_117_full.png"
+      },
+      "state_changed": false,
+      "url": "https://www.notion.so/Monthly-Budget-Use-this-template-to-figure-out-how-much-you-make-and-spend-in-a-given-month-List-yo-6cdbcee8fd5b4e29b33a292f1482abbd",
+      "timestamp": "2025-11-17T22:43:35.324734"
+    },
+    {
+      "step_number": 2,
+      "action_type": "wait",
+      "description": "wait for panel",
+      "duration": 0.5,
+      "timestamp": "2025-11-17T22:43:35.826403"
+    }
+  ]
+}
